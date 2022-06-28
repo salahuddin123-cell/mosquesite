@@ -156,7 +156,7 @@ setcurrentusernamme(user)
         latitude: viewport.latitude||'22.60613198936946',
         zoom: viewport.zoom
       }}
-      mapboxAccessToken={process.env.REACT_APP_MAPBOX}
+      mapboxAccessToken="pk.eyJ1Ijoic2FsYWh1ZGRpbjEyMyIsImEiOiJjbDRrbnNmemoxN21kM2xtZXRvbW50bmxzIn0.-HiqPBE5BYv0XcMztG6pqA"
       style={{width: "100%", height: "100%"}}
       mapStyle="mapbox://styles/mapbox/satellite-streets-v11"
       getCursor={(e) => "crosshair"}
