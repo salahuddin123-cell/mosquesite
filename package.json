@@ -11,6 +11,7 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
     "javascript-time-ago": "^2.5.4",
     "map": "^1.0.1",
     "mapbox-gl": "^2.9.0",
