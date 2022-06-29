@@ -164,7 +164,7 @@ setcurrentusernamme(user)
       getCursor={(e) => "crosshair"}
       onViewportChange={(viewport) => setViewport(viewport)}
      onDblClick={currentusernamme&&handleAddClick}
-     onpointerenter={currentusernamme&&handleAddClick}
+   
     >
       {pins.map((p) =>
       <>
