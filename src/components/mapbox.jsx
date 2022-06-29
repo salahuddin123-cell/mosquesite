@@ -104,6 +104,7 @@ axios.post(
          if (res.status === 200){
            console.log('review created')
            setPins([...pins,res.data])
+           setNewPlace(null)
          }
          else {
           
@@ -113,6 +114,7 @@ axios.post(
          settitle('')
          setdesc('')
          setrating('')
+         
      })
      .catch(err => console.log('Something went wrong',err))
 }
@@ -162,6 +164,7 @@ setcurrentusernamme(user)
       getCursor={(e) => "crosshair"}
       onViewportChange={(viewport) => setViewport(viewport)}
      onDblClick={currentusernamme&&handleAddClick}
+     onpointerenter={currentusernamme&&handleAddClick}
     >
       {pins.map((p) =>
       <>
