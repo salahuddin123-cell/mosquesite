@@ -18,7 +18,7 @@ const Mapbox = () => {
  
   const [register, setregister] = useState(false)
   const [login, setlogin] = useState(false)
- 
+
   const [pins, setPins] = useState([]);
   const [newPlace, setNewPlace] = useState(null);
   const [currentPlaceId, setCurrentPlaceId] = useState(null);
@@ -164,7 +164,7 @@ setcurrentusernamme(user)
       getCursor={(e) => "crosshair"}
       onViewportChange={(viewport) => setViewport(viewport)}
      onDblClick={currentusernamme&&handleAddClick}
-   
+    
     >
       {pins.map((p) =>
       <>
