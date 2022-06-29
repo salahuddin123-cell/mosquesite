@@ -23,6 +23,7 @@ const Register = ({setregister}) => {
                 if (res.status === 200){
                   alert('user created')
                   setsuccess(true)
+                  setregister(false)
                 }
                
                 else {
