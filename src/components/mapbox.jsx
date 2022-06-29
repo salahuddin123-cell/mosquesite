@@ -194,9 +194,9 @@ setcurrentusernamme(user)
                 <p> Created by <b>{p.username}</b> at <ReactTimeAgo date= {p.createdAt} locale="en-US"/></p>
                    
                  
-                <button className="btnedit" onClick={()=>editItem(p._id)} type="submit">
+              {currentusernamme&&  <button className="btnedit" onClick={()=>editItem(p._id)} type="submit">
                       Edit
-                    </button>
+                    </button>}
                 </div>
       </Popup>
       
